@@ -1,0 +1,33 @@
+{
+  "name": "contacts-testing-agent",
+  "version": "0.1.0",
+  "description": "agent for integration testing with the contact API",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wastingnotime/contacts-testing-agent.git"
+  },
+  "keywords": [
+    "api",
+    "test",
+    "contacts"
+  ],
+  "author": "hriccio@wastingnotime.org",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wastingnotime/contacts-testing-agent/issues"
+  },
+  "homepage": "https://github.com/wastingnotime/contacts-testing-agent#readme",
+  "dependencies": {
+    "chai": "^5.2.0",
+    "chai-http": "^5.1.1",
+    "mocha": "^11.1.0"
+  }
+}
